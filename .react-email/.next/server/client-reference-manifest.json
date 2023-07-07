@@ -40,9 +40,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
+    "(app-client)/./src/app/home.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
+        "id": "(sc_client)/./src/app/home.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -56,17 +56,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/preview/[slug]/preview.tsx": {
+    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
       "*": {
-        "id": "(sc_client)/./src/app/preview/[slug]/preview.tsx",
+        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/home.tsx": {
+    "(app-client)/./src/app/preview/[slug]/preview.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/home.tsx",
+        "id": "(sc_client)/./src/app/preview/[slug]/preview.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -155,16 +155,24 @@
       ],
       "async": false
     },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/app/home.tsx": {
+      "id": "(app-client)/./src/app/home.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/styles/globals.css": {
+      "id": "(app-client)/./src/styles/globals.css",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/styles/globals.css": {
-      "id": "(app-client)/./src/styles/globals.css",
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -178,25 +186,17 @@
         "app/preview/[slug]/page:static/chunks/app/preview/[slug]/page.js"
       ],
       "async": false
-    },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/app/home.tsx": {
-      "id": "(app-client)/./src/app/home.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/app/page": [
+      "static/css/app/page.css"
+    ],
     "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/app/layout": [
       "static/css/app/layout.css"
     ],
     "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/app/preview/[slug]/page": [
       "static/css/app/preview/[slug]/page.css"
-    ],
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/app/page": [
-      "static/css/app/page.css"
     ]
   }
 }
