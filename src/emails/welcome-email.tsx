@@ -19,7 +19,7 @@ interface WelcomeEmailProps {
 }
 
 export const WelcomeEmail = ({
-  name = "Sydney Sheldon",
+  name,
 }: WelcomeEmailProps) => (
   <Html>
     <Head />
