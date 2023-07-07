@@ -1,24 +1,8 @@
 {
   "ssrModuleMapping": {
-    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -32,9 +16,25 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -48,17 +48,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/styles/globals.css": {
+    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
       "*": {
-        "id": "(sc_client)/./src/styles/globals.css",
+        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
+    "(app-client)/./src/styles/globals.css": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
+        "id": "(sc_client)/./src/styles/globals.css",
         "name": "*",
         "chunks": [],
         "async": false
@@ -67,22 +67,6 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/client/components/error-boundary.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/esm/client/components/error-boundary.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
     "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
@@ -93,22 +77,6 @@
     },
     "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/client/components/layout-router.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
-      "name": "*",
-      "chunks": [
-        "app-client-internals:static/chunks/app-client-internals.js"
-      ],
-      "async": false
-    },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/esm/client/components/layout-router.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
         "app-client-internals:static/chunks/app-client-internals.js"
@@ -131,6 +99,22 @@
       ],
       "async": false
     },
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
     "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
@@ -147,6 +131,22 @@
       ],
       "async": false
     },
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
     "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/app/preview/[slug]/preview.tsx": {
       "id": "(app-client)/./src/app/preview/[slug]/preview.tsx",
       "name": "*",
@@ -155,16 +155,16 @@
       ],
       "async": false
     },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/styles/globals.css": {
-      "id": "(app-client)/./src/styles/globals.css",
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
+    "/Users/nicole.permejo/Documents/yoyo-projects/popstar-email/my-popstar-email/.react-email/src/styles/globals.css": {
+      "id": "(app-client)/./src/styles/globals.css",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
