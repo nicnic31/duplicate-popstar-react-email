@@ -10,7 +10,9 @@ export default function Register() {
   });
 
   const handleSubmit = (e: any) => {
-    const html = render(<WelcomeEmail name={details.name} />);
+    const html = render(<WelcomeEmail name={details.name} />, {
+      pretty: true,
+    });
     console.log(html);
     e.preventDefault();
   };
@@ -25,6 +27,7 @@ export default function Register() {
             <input
               className="text-sm w-[500px] rounded py-2 px-4 outline outline-gray-300 my-2"
               placeholder="Enter your name"
+              type="text"
               value={details.name}
               onChange={(e) =>
                 setDetails((prev) => ({ ...prev, name: e.target.value }))
@@ -33,6 +36,7 @@ export default function Register() {
             <input
               className="text-sm w-[500px] rounded py-2 px-4 outline outline-gray-300 my-2"
               placeholder="example@email.com"
+              type="email"
               onChange={(e) =>
                 setDetails((prev) => ({ ...prev, email: e.target.value }))
               }
