@@ -1,4 +1,6 @@
 "use client";
+import WelcomeEmail from "@/emails/welcome-email";
+import { render } from "@react-email/render";
 import { useState } from "react";
 
 export default function Register() {
@@ -8,7 +10,8 @@ export default function Register() {
   });
 
   const handleSubmit = (e: any) => {
-    console.log("details", details);
+    const html = render(<WelcomeEmail name={details.name} />);
+    console.log(html);
     e.preventDefault();
   };
 
